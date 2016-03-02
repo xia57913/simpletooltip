@@ -1,10 +1,25 @@
-p:hover:after{    /* tooltip css*/
+#a:hover:after{
 	position:absolute;
-	width:100px;
-	height:100px;
-	top:100px;
+/*	width:100px;
+	height:100px;*/
+	top:280px;
 	left:20px;
-	border:1px solid #0FF;
-	content:"here is the content of the tooltip";
-	background:#fff;
+	content:"怎么样，打篮球帅气的背影~~";
+    background:#0CF;
+	z-index:10;
+	animation:tooltip 0.3s ease-out;
+	}
+
+@keyframes tooltip{
+	0%{top:320px;
+	opacity:0;
+	transform:scale(0) ;
+	-webkit-transform:scale(0);
+	}
+
+	100%{top:280px;
+	opacity:1;
+	transform:scale(1) ;
+	-webkit-transform:scale(1);
+	}
 	}
