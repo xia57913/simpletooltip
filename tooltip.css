@@ -4,7 +4,7 @@
 	height:100px;*/
 	top:280px;
 	left:20px;
-	content:"怎么样，打篮球帅气的背影~~";
+	content:"This is the content of the tooltip";
     background:#0CF;
 	z-index:10;
 	animation:tooltip 0.3s ease-out;
