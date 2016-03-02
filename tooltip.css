@@ -1,0 +1,10 @@
+p:hover:after{    /* tooltip css*/
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:100px;
+	left:20px;
+	border:1px solid #0FF;
+	content:"here is the content of the tooltip";
+	background:#fff;
+	}
